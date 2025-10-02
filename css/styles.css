@@ -74,7 +74,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #fff;
-  --bs-link-hover-color: #fff3cd;
+  --bs-link-hover-color: #6dc587;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -177,7 +177,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   color: #d4d4d4;
-  background-color: #00000050;
+  background-color: #00000080;
 }
 
 abbr[title] {
@@ -7677,32 +7677,31 @@ textarea.form-control-lg {
 
 .mb-0 {
   margin-bottom: 0 !important;
-  background-color: #00000050;
+  background-color: #00000080;
 }
 
 .mb-1 {
   margin-bottom: 0.25rem !important;
-  background-color: #00000050;
+  background-color: #00000080;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem !important;
-  background-color: #00000050;
+  background-color: #00000080;
 }
 
 .mb-3 {
   margin-bottom: 1rem !important;
-  background-color: #00000050;
+  background-color: #00000080;
 }
-
 .mb-4 {
   margin-bottom: 1.5rem !important;
-  background-color: #00000050;
+  background-color: #00000080;
 }
 
 .mb-5 {
   margin-bottom: 3rem !important;
-  background-color: #00000050;
+  background-color: #00000080;
 }
 
 .mb-auto {
@@ -10954,24 +10953,27 @@ p.lead {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+.social-icons {
+  background-color: #00000080;
+}
 }
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 3rem;
+  width: 3rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #0a440d;
 }
 
 .dev-icons {
